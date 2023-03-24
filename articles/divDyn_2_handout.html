@@ -19,7 +19,11 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
 <!-- bootstrap-toc --><script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.js" integrity="sha256-4veVQbu7//Lk5TSmc7YV48MxtMy98e26cf5MrgZYnwo=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- search --><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- pkgdown --><script src="../pkgdown.js"></script><meta property="og:title" content="Handout">
 <meta property="og:description" content="divDyn">
-<meta property="og:image" content="https://divDyn.github.io/logo.png">
+<meta property="og:image" content="https://divDyn.github.io/reference/figures/logo.png">
+<meta property="og:image:alt" content="The divDyn sticker.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:creator" content="@atkocsis">
+<meta name="twitter:site" content="@atkocsis">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -1032,10 +1036,10 @@ For instance, if you want your boxes to feature red italic fonts as labels, just
 <span>  iter<span class="op">=</span><span class="fl">100</span>, q<span class="op">=</span><span class="fl">20</span>,FUN<span class="op">=</span><span class="va">binstat</span>, type<span class="op">=</span><span class="st">"oxw"</span><span class="op">)</span></span></code></pre></div>
 <div class="sourceCode" id="cb119"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">subST</span><span class="op">[</span><span class="fl">54</span><span class="op">:</span><span class="fl">94</span>, <span class="st">"occs"</span><span class="op">]</span></span></code></pre></div>
-<pre><code><span><span class="co">##  [1] 22.97 22.55 24.87 24.47 25.01 23.08 21.75 24.99 22.01 23.47 22.90 26.94</span></span>
-<span><span class="co">## [13] 22.97 26.17 27.71 29.13 23.99 25.55 25.92 28.56 27.65 26.03 28.37 22.75</span></span>
-<span><span class="co">## [25] 25.94 26.55 25.38 23.76 22.63 25.55 22.34 23.13 22.78 26.53 26.23 25.43</span></span>
-<span><span class="co">## [37] 28.26 23.79 24.80 26.02 24.37</span></span></code></pre>
+<pre><code><span><span class="co">##  [1] 22.60 22.89 25.10 24.25 26.33 23.35 21.91 22.61 21.66 24.69 22.93 26.14</span></span>
+<span><span class="co">## [13] 23.41 27.05 27.75 32.04 24.69 25.49 25.69 27.58 26.80 24.63 26.07 22.81</span></span>
+<span><span class="co">## [25] 26.40 26.74 25.85 24.55 22.44 24.48 22.31 23.90 22.77 27.75 26.29 25.46</span></span>
+<span><span class="co">## [37] 28.41 24.09 24.95 24.37 24.66</span></span></code></pre>
 <p>Although there are ways to improve the accuracy of the subsampling process, the variation induced by this problem is only minuscule compared to those introduced by sampling and binning uncertainties. However, typically this <code>xexp</code> value is set to a value between 1 and 2 (e.g. 1.4). In these cases, you have to calculate the intensity of sampling . Although there is some discrepancy between the methods, the overall trajectories are quite similar.</p>
 <div class="sourceCode" id="cb121"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">subO2W</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/subsample.html">subsample</a></span><span class="op">(</span><span class="va">fossGen</span>, bin<span class="op">=</span><span class="st">"stg"</span>, tax<span class="op">=</span><span class="st">"genus"</span>, coll<span class="op">=</span><span class="st">"collection_no"</span>, </span>
